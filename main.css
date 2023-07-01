@@ -1,0 +1,123 @@
+@import url('https://fonts.cdnfonts.com/css/bricolage-grotesque');
+
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a.a-cta {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+
+	background: rgba(0, 0, 0, 1.0);
+	padding: 8px 32px;
+	border-radius: 10px;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+header {
+	padding: 16px 32px;
+}
+
+header .media-page {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .media-page .logo {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+header .media-page ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+header .media-page ul li {
+	margin-left: 16px;
+}
+header .media-page ul li:nth-child(1) { margin-left: 0; }
+
+main {
+	padding: 16px;
+}
+
+.banner-first-view {
+	background: rgba(240, 240, 240, 1.0);
+
+	height: 380px;
+	display: block;
+	border-radius: 16px;
+
+	background-image: url(https://images.pexels.com/photos/4767063/pexels-photo-4767063.jpeg?cs=srgb&dl=pexels-rostislav-uzunov-4767063.jpg&fm=jpg&_gl=1*19nxbve*_ga*MTUzNjEyNjMzLjE2ODYyMzIwMzM.*_ga_8JE65Q40S6*MTY4ODIxNDk3NC4yOS4xLjE2ODgyMTQ5ODkuMC4wLjA.);
+	background-size: cover;
+	background-position: center;
+}
+
+.sub-banner {
+	margin-top: 32px;
+
+	max-width: 600px;
+}
+
+.sub-banner h1 {
+	font-size: 34px;
+}
+
+.sub-banner p {
+	margin-top: 16px;
+	max-width: 350px;
+}
+
+.sub-banner ul {
+	margin-top: 16px;
+	list-style: none;
+	display: flex;
+}
+
+.sub-banner ul li {
+	margin-left: 8px;
+}
+.sub-banner ul li:nth-child(1) { margin-left: 0px; }
+
+.sub-banner ul li .card-tag {
+	position: relative;
+
+	background: rgba( 255, 190, 113, 0.3);
+
+	padding: 6px 16px;
+	padding-left: 40px;
+	display: inline-block;
+	border-radius: 100px;
+
+	font-size: 12px;
+}
+
+.sub-banner ul li .card-tag::before {
+	content: "";
+
+	position: absolute;
+	top: 50%;
+	left: 16px;
+	transform: translateY(-50%);
+
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+
+	background: black;
+}
